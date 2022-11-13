@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711C8D2A2851F0440050247D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C8D292851F0440050247D /* CardView.swift */; };
 		7148BE6C285071C9006F80DA /* LocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE6B285071C9006F80DA /* LocationApp.swift */; };
 		7148BE6E285071C9006F80DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE6D285071C9006F80DA /* ContentView.swift */; };
-		7148BE70285071CC006F80DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7148BE6F285071CC006F80DA /* Assets.xcassets */; };
 		7148BE73285071CC006F80DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7148BE72285071CC006F80DA /* Preview Assets.xcassets */; };
+		7148BE7A28507257006F80DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7148BE7928507257006F80DA /* Assets.xcassets */; };
+		7148BE81285072D6006F80DA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE80285072D6006F80DA /* Location.swift */; };
+		7148BE83285072E3006F80DA /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE82285072E3006F80DA /* LocationsDataService.swift */; };
+		7148BE85285073A5006F80DA /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE84285073A5006F80DA /* LocationView.swift */; };
+		7148BE8728507429006F80DA /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE8628507429006F80DA /* LocationViewModel.swift */; };
+		7148BE892850846C006F80DA /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE882850846C006F80DA /* LocationListView.swift */; };
+		7148BE8B28509F3E006F80DA /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE8A28509F3E006F80DA /* LocationPreviewView.swift */; };
+		7148BE8D2850CEA9006F80DA /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE8C2850CEA9006F80DA /* LocationAnnotationView.swift */; };
+		7148BE8F2850DD48006F80DA /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE8E2850DD48006F80DA /* LocationDetailView.swift */; };
+		71515756285313DE00E8FBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71515755285313DE00E8FBCE /* LaunchScreen.storyboard */; };
+		718B29242851CC1D004F302D /* LocationCardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B29232851CC1D004F302D /* LocationCardStackView.swift */; };
+		71E9099A28F47B62006AA5CE /* BikeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E9099928F47B62006AA5CE /* BikeListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		711C8D292851F0440050247D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7148BE68285071C9006F80DA /* Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7148BE6B285071C9006F80DA /* LocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationApp.swift; sourceTree = "<group>"; };
 		7148BE6D285071C9006F80DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7148BE6F285071CC006F80DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7148BE72285071CC006F80DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7148BE7928507257006F80DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7148BE80285072D6006F80DA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7148BE82285072E3006F80DA /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		7148BE84285073A5006F80DA /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		7148BE8628507429006F80DA /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		7148BE882850846C006F80DA /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		7148BE8A28509F3E006F80DA /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		7148BE8C2850CEA9006F80DA /* LocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotationView.swift; sourceTree = "<group>"; };
+		7148BE8E2850DD48006F80DA /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		71515755285313DE00E8FBCE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		718B29222851C8CE004F302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		718B29232851CC1D004F302D /* LocationCardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCardStackView.swift; sourceTree = "<group>"; };
+		71E9099928F47B62006AA5CE /* BikeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +76,13 @@
 		7148BE6A285071C9006F80DA /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				718B29222851C8CE004F302D /* Info.plist */,
 				7148BE6B285071C9006F80DA /* LocationApp.swift */,
-				7148BE6D285071C9006F80DA /* ContentView.swift */,
-				7148BE6F285071CC006F80DA /* Assets.xcassets */,
+				7148BE7F285072B6006F80DA /* DataService */,
+				7148BE7B28507269006F80DA /* Model */,
+				7148BE7D28507297006F80DA /* View */,
+				7148BE7E2850729E006F80DA /* ViewModel */,
+				7148BE7928507257006F80DA /* Assets.xcassets */,
 				7148BE71285071CC006F80DA /* Preview Content */,
 			);
 			path = Location;
@@ -62,9 +91,50 @@
 		7148BE71285071CC006F80DA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7148BE6D285071C9006F80DA /* ContentView.swift */,
 				7148BE72285071CC006F80DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7148BE7B28507269006F80DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7148BE80285072D6006F80DA /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7148BE7D28507297006F80DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7148BE84285073A5006F80DA /* LocationView.swift */,
+				7148BE882850846C006F80DA /* LocationListView.swift */,
+				7148BE8A28509F3E006F80DA /* LocationPreviewView.swift */,
+				7148BE8C2850CEA9006F80DA /* LocationAnnotationView.swift */,
+				7148BE8E2850DD48006F80DA /* LocationDetailView.swift */,
+				718B29232851CC1D004F302D /* LocationCardStackView.swift */,
+				711C8D292851F0440050247D /* CardView.swift */,
+				71515755285313DE00E8FBCE /* LaunchScreen.storyboard */,
+				71E9099928F47B62006AA5CE /* BikeListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7148BE7E2850729E006F80DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7148BE8628507429006F80DA /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7148BE7F285072B6006F80DA /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				7148BE82285072E3006F80DA /* LocationsDataService.swift */,
+			);
+			path = DataService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71515756285313DE00E8FBCE /* LaunchScreen.storyboard in Resources */,
+				7148BE7A28507257006F80DA /* Assets.xcassets in Resources */,
 				7148BE73285071CC006F80DA /* Preview Assets.xcassets in Resources */,
-				7148BE70285071CC006F80DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7148BE83285072E3006F80DA /* LocationsDataService.swift in Sources */,
+				7148BE8728507429006F80DA /* LocationViewModel.swift in Sources */,
+				7148BE8B28509F3E006F80DA /* LocationPreviewView.swift in Sources */,
 				7148BE6E285071C9006F80DA /* ContentView.swift in Sources */,
+				71E9099A28F47B62006AA5CE /* BikeListView.swift in Sources */,
+				7148BE85285073A5006F80DA /* LocationView.swift in Sources */,
+				7148BE892850846C006F80DA /* LocationListView.swift in Sources */,
+				718B29242851CC1D004F302D /* LocationCardStackView.swift in Sources */,
+				7148BE81285072D6006F80DA /* Location.swift in Sources */,
+				7148BE8D2850CEA9006F80DA /* LocationAnnotationView.swift in Sources */,
+				7148BE8F2850DD48006F80DA /* LocationDetailView.swift in Sources */,
+				711C8D2A2851F0440050247D /* CardView.swift in Sources */,
 				7148BE6C285071C9006F80DA /* LocationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,15 +346,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Location/Preview Content\"";
-				DEVELOPMENT_TEAM = S2JQNAD452;
+				DEVELOPMENT_TEAM = 3F5W4335C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Location/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,15 +377,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Location/Preview Content\"";
-				DEVELOPMENT_TEAM = S2JQNAD452;
+				DEVELOPMENT_TEAM = 3F5W4335C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Location/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
